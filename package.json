@@ -1,0 +1,66 @@
+{
+  "name": "feathers-firestoredb",
+  "version": "1.0.0",
+  "description": "A database service for FeathersJS and Google's Firestore Database",
+  "main": "lib/",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnatidaeProject/feathers-firestoredb.git"
+  },
+  "keywords": [
+    "FeathersJS",
+    "Firestore",
+    "Service"
+  ],
+  "author": "Brian McBride",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AnatidaeProject/feathers-firestoredb/issues"
+  },
+  "homepage": "https://github.com/AnatidaeProject/feathers-firestoredb#readme",
+  "engines": {
+    "node": ">= 8"
+  },
+  "dependencies": {
+    "@feathersjs/commons": "^3.0.1",
+    "@feathersjs/errors": "^3.3.4",
+    "lodash.get": "^4.4.2",
+    "lodash.isboolean": "^3.0.3",
+    "lodash.isempty": "^4.4.0",
+    "lodash.isnumber": "^3.0.3",
+    "lodash.isstring": "^4.0.1",
+    "lodash.omit": "^4.5.0",
+    "uberproto": "^2.0.4",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "@feathersjs/feathers": "^3.2.3",
+    "@types/feathersjs__errors": "^3.2.1",
+    "@types/feathersjs__express": "^1.1.4",
+    "@types/feathersjs__feathers": "^3.0.5",
+    "@types/feathersjs__socketio": "^3.0.3",
+    "@types/jest": "^23.3.9",
+    "@types/lodash.get": "^4.4.4",
+    "@types/lodash.isboolean": "^3.0.4",
+    "@types/lodash.isempty": "^4.4.4",
+    "@types/lodash.isnumber": "^3.0.4",
+    "@types/lodash.isstring": "^4.0.4",
+    "@types/lodash.omit": "^4.5.4",
+    "@types/uuid": "^3.4.4",
+    "eslint": "^5.9.0",
+    "jest": "^23.6.0",
+    "jest-junit": "^5.2.0",
+    "jest-runner-tslint": "^1.0.5",
+    "nodemon": "^1.18.6",
+    "nyc": "^13.1.0",
+    "prettier": "^1.15.2",
+    "ts-jest": "^23.10.4",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.11.0",
+    "tslint-config-prettier": "^1.16.0",
+    "typescript": "^3.1.6"
+  }
+}
