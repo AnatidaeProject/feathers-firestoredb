@@ -25,7 +25,7 @@
     "node": ">= 8"
   },
   "dependencies": {
-    "@feathersjs/commons": "^3.0.1",
+    "@feathersjs/commons": "^4.0.0",
     "@feathersjs/errors": "^3.3.4",
     "lodash.get": "^4.4.2",
     "lodash.isboolean": "^3.0.3",
